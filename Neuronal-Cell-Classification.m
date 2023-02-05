@@ -1,6 +1,6 @@
 clc,clear,close all
 
-image_path = 'D:\joy\program\image_process_lesson\image_processing_theory_and_application\project_3\P16091177_project_3\IMG_0045.JPG';
+image_path = 'original_image_path';
 img = imread(image_path);
 ori_img = im2double(img);
 img = rgb2gray(img);
