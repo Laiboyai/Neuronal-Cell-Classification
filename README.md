@@ -9,5 +9,5 @@
 <br>在第二個部分，為了將影像的噪音以及死細胞從影像中移除，首先將影像中所有影像的區域標註起來計算各個區域pixel的總數。然而，我可以清楚地從影像中看出死細胞的pixel數量相較於其他的正常細胞而言是相對較少的，因此我設立一個閥值，當影像中各區域的pixel數量小時閥值時就將此區域的影像強度設為零。<br>
 ![image](https://github.com/Laiboyai/Neuronal-Cell-Classification/blob/main/imgs/figure_2.PNG)<br>
 * **Extract neuronal cell boundaries**
-再經過上述的兩個實驗步驟後，便可以清楚地將活細胞的邊界提取除出來，詳細的成果圖如下圖，由此我們可以明顯看出活細胞的邊界已經被清楚地提取出來。
+<br>再經過上述的兩個影像處理步驟後，便可以有效地建立神經細胞邊界提取技術，去將影像中活細胞與死細胞分類出來，詳細的成果圖如下圖，由此我們可以明顯看出活細胞的邊界已經被清楚地提取出來。
 <br>![image](https://github.com/Laiboyai/Neuronal-Cell-Classification/blob/main/output%20image/output_image_(3).jpg)
